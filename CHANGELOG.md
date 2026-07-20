@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+### 🚫 Deprecations
+
+- Deprecate `MessageOperation` in favor of `MessagingOperationType`.
+  ([#19357](https://github.com/open-telemetry/opentelemetry-java-instrumentation/pull/19357))
+
 ## Version 2.30.0 (2026-07-22)
 
 This release targets the OpenTelemetry SDK 1.64.0.
