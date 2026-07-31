@@ -73,8 +73,8 @@ public final class MessagingAttributesExtractor<REQUEST, RESPONSE>
   }
 
   /**
-   * @deprecated Use {@link #createForOperationType(MessagingAttributesGetter,
-   *     MessagingOperationType)}. Will be removed in 3.0.
+   * @deprecated Use {@link #create(MessagingAttributesGetter, MessagingOperationType)}. Will be
+   *     removed in 3.0.
    */
   @Deprecated // to be removed in 3.0
   public static <REQUEST, RESPONSE> AttributesExtractor<REQUEST, RESPONSE> create(
@@ -92,8 +92,8 @@ public final class MessagingAttributesExtractor<REQUEST, RESPONSE>
   }
 
   /**
-   * @deprecated Use {@link #builderForOperationType(MessagingAttributesGetter,
-   *     MessagingOperationType)}. Will be removed in 3.0.
+   * @deprecated Use {@link #builder(MessagingAttributesGetter, MessagingOperationType)}. Will be
+   *     removed in 3.0.
    */
   @Deprecated // to be removed in 3.0
   public static <REQUEST, RESPONSE> MessagingAttributesExtractorBuilder<REQUEST, RESPONSE> builder(
